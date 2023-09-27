@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIRTUAL WILDLIFE PARK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+       body {
+            
+           background-image: url(Untitled_design.jpg);
+            color: rgb(255, 255, 255);
+            font-family: 'Poppins', sans-serif;
+            
+            
+        }
+        nav{
+            
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(30, 112, 43);
+            background-image: url(./headerbg.jpg);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 30px;
+            
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: aliceblue;
+
+            
+        }
+        nav ul li a:hover{
+            color: rgb(153, 226, 128);
+            font-size: 1.02rem;
+        }
+            
+        
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 70px 0;
+        }
+        .firstsection div{
+            width: 30%;
+
+        }
+        .leftsection{
+            font-size: 4rem;
+            
+        }
+        .rightsection{
+            font-size: 2rem;
+            margin: 0px;
+            text-align: right;
+        }
+        .rightsection a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        .rightsection a:hover{
+            color:  rgb(153, 226, 128);
+            font-size: 2.02rem;
+        }
+        #element{
+            color: rgb(92, 195, 126);
+        }
+        .brand img{
+           margin-right: 14%;
+            width: 80px;
+            
+
+        }
+        .brand{
+            margin-right: 35%;
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            font-size: 4rem;
+        
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <header>
+        
+        <nav>
+            
+            <div class="brand"><img src="logo1.png" alt="wp"> WILDLIFE</div>
+           
+            <div class="right"> 
+                <ul>
+                    <li><a href="index.html" ><h3>HOME</h3></a></li>
+                    <li><a href="aboutus.html"target="_main"><h3>ABOUT US</h3></a></li>
+                    <li><a href="feedback.html"target="_main"><h3>FEEDBACK FORM</h3></a></li>
+                    <li><a href="contact.html"target="_main"><h3>CONTACT US</h3></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+    
+        <section class="firstsection">
+            <div class="leftsection">
+                <bold>Learn about wildlife and conservation in a </bold>
+                     <span id="element"></span>
+            </div>
+            <div class="rightsection">
+             <a href="explore.html" target="_main"><h2><u>EXPLORE</u></h2></a>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['fun and interactive way.' ],
+          typeSpeed: 50,
+        });
+      </script>
+
+</body>
+
+</html>
